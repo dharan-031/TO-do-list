@@ -1,0 +1,6 @@
+{
+  "name": "Chronos - Dark Lifestyle & Streak Tracker",
+  "description": "Premium dark-themed daily lifestyle progress tracker for 20-min learning, reading, and fitness habits with streak counters, focus timers, and intelligent notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

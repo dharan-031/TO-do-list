@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Fraunces', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    background-color: #09090b;
+    color: #ffffff;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.font-serif {
+  font-family: 'Fraunces', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Deep Obsidian Dark Background with Crimson Ambient Haze & White Micro-Dot Grid */
+.bg-red-dark {
+  background-color: #09090b;
+  background-image: 
+    radial-gradient(ellipse 70% 35% at 50% -10%, rgba(220, 38, 38, 0.16) 0%, transparent 70%),
+    radial-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 0);
+  background-size: 100% 100%, 28px 28px;
+  background-attachment: fixed;
+}
+
+/* Vivid Crimson Glow Utilities */
+.red-glow {
+  box-shadow: 0 0 35px -8px rgba(239, 68, 68, 0.28);
+}
+
+.red-glow-subtle {
+  box-shadow: 0 0 20px -5px rgba(220, 38, 38, 0.18);
+}
+
+.red-glow-strong {
+  box-shadow: 0 0 45px -5px rgba(239, 68, 68, 0.45);
+}
+
+/* Custom Red & Dark Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #09090d;
+}
+::-webkit-scrollbar-thumb {
+  background: #7f1d1d;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ef4444;
+}
